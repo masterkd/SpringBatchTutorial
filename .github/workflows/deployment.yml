@@ -27,4 +27,4 @@ jobs:
           distribution: corretto
           cache: maven
       - name: Deploy
-        run: mvn clean deploy
+        run: mvn clean verify
